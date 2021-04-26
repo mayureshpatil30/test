@@ -1,0 +1,7 @@
+CREATE TABLE `user_details`.`transaction` (
+  `id` INT NOT NULL,
+  `Loan_Amount` INT NOT NULL,
+  `Duration_of_Loan` INT NOT NULL,
+  `rate_of_intrest` INT NOT NULL,
+  `Transaction_Date` DATE NOT NULL,
+  PRIMARY KEY (`id`));

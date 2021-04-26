@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+<table>
+
+
+<h1> User Registeration </h1>
+<form action="{{ url_for('http://127.0.0.1:5000/')}}" method="POST" >
+
+    <tr>
+        <td><input type="text" name="name" placeholder="Enter Name" ></td>
+    </tr>
+    <tr>
+        <td><input type="number" name="age" placeholder="Enter Age" min="18" ></td>
+    </tr>
+    <tr>
+        <td><input type="tel" id="phone" name="phone" placeholder="Enter Phone Number"  required></td>
+    </tr>
+    <tr>
+        <td><input name="txtPANCard" type="text" id="txtPANCard" placeholder="Enter PAN" class="PAN" /></td>
+    </tr>
+    <tr>
+        <td><input type="text" name="address" placeholder="Enter Address" ></td>
+    </tr>
+    <tr>
+        <td><input type="text" name="city" placeholder="Enter City" > </td>
+    </tr>
+    <tr>
+        <td><input type="text" name="state" placeholder="Enter State" ></td>
+    </tr>
+    <tr>
+        <td><button> <a  href="/index2/">submit</a></button></td>
+</from>
+
+
+</table>
+</body>
+</html>
+

@@ -1,0 +1,12 @@
+CREATE SCHEMA `user_details` ;
+
+CREATE TABLE `user_details`.`user details` (
+  `id` INT NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
+  `age` INT NOT NULL,
+  `phone` INT NOT NULL,
+  `txtPANCard` VARCHAR(45) NOT NULL,
+  `address` VARCHAR(45) NOT NULL,
+  `city` VARCHAR(45) NOT NULL,
+  `state` VARCHAR(45) NOT NULL,
+   PRIMARY KEY (`id`));
